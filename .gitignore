@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/*.log
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Keep directory structure but ignore heavy data/results by default
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+results/figures/*
+results/tables/*
+results/reports/*
+
+# Preserve placeholders
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/reports/.gitkeep
